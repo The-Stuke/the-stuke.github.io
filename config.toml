@@ -1,0 +1,61 @@
+baseurl = "https://the-stuke.github.io"
+title = "Home"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Nathaniel Stukenberg"
+    info = "Cyber Incident Analyst"
+    description = "Nathaniel's personal website"
+    keywords = "blog,personal"
+    avatarurl = "/img/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "Cyber Security Write Ups and Blogs."
+
+    hidecredits = true
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "/img/github.jpg"
+    weight = 1
+    url = "https://github.com/The-Stuke"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "/img/linkedin.jpg"
+    weight = 2
+    url = "https://www.linkedin.com/in/nathaniel-stukenberg-7a700a127"
+[[params.social]]
+    name = "Twitter"
+    icon = "/img/twitter.jpg"
+    weight = 3
+    url = "https://twitter.com/The-Stukie/"
+
+# Menu links
+[[menu.main]]
+    name = "Write-Ups"
+    weight = 1
+    url  = "/write-ups/"
+[[menu.main]]
+    name = "Certifications"
+    weight = 2
+    url = "/certifications/"
